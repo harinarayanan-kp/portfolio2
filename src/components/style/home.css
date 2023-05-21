@@ -1,0 +1,49 @@
+.mainbody {
+    user-select: none;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    background: #010101;
+}
+
+.homebgimage {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 15vh;
+    position: relative;
+    max-width: 100%;
+    height: 85vh;
+    background: url('../../assets/homesky.png');
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+
+.bgtext {
+    position: relative;
+    align-self: center;
+    bottom: 20vh;
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10vh;
+    line-height: 144px;
+    color: #F8FEDC; 
+}
+.pfpimage{
+    border-radius: 2vw;
+    align-self: center;
+    position: absolute;
+    top: 40vh;
+    background-image: url('../../assets/IMG_4043.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 300px;
+    cursor:crosshair;
+}

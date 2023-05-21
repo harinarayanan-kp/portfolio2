@@ -1,0 +1,106 @@
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+    .section {
+        padding-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%,rgb(19, 19, 19) 50%, rgb(0, 0, 0) 100%); */
+        background:
+            radial-gradient(100% 100% at 100% 100%, var(--_l)) var(--s) var(--s),
+            radial-gradient(100% 100% at 0 0, var(--_l)) var(--s) var(--s),
+            radial-gradient(100% 100% at 50% 50%, #0000 22%, var(--c) 23% 29%, #0000 30% 34%, var(--c) 35% 41%, #0000 42%) #000000;
+        background-size: calc(var(--s)*2) calc(var(--s)*2);
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        margin: 50px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 200px;
+        background-color: rgb(10, 10, 10);
+        border-radius: 30px;
+        transition: .5s;
+    }
+
+    .card:hover {
+        .cardcaption {
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        scale: 1.05;
+    }
+
+    .card:hover .hireme {
+        transform: translateY(30px);
+        display: inline;
+    }
+
+    .cardimage {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        transition: .3s;
+    }
+
+    .hireme {
+        user-select: none;
+        font-weight: 800;
+        font-family: 'Poppins';
+        font-size: 20px;
+        text-decoration: none;
+        transition: .5s;
+        transform: translateY(100px);
+        position: relative;
+        top: -20px;
+        left: 50px;
+        border-radius: 20px;
+        width: 90px;
+        height: 30px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+
+    .hireme:hover {
+        box-shadow: 0 4px 8px 0 rgb(36, 36, 36), 0 6px 16px 0 rgba(255, 145, 0, .5);
+        color: #000000;
+        background-color: #fedb43;
+    }
+
+    .cardcaption {
+        position: relative;
+        top: -20px;
+        transition: .5s;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(128, 128, 128);
+    }
+
+    .card:hover .cardcaption {
+        transform: translateY(-60px);
+    }
+
+    .title {
+        font-family: 'Poppins';
+        font-weight: 800;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    .abouttextcontainer{
+        color: #fedb43;
+        width: 80vw;
+    }

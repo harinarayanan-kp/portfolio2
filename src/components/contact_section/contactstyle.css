@@ -1,0 +1,21 @@
+.contactsection{
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    background:
+            radial-gradient(100% 100% at 100% 100%, var(--_l)) var(--s) var(--s),
+            radial-gradient(100% 100% at 0 0, var(--_l)) var(--s) var(--s),
+            /* radial-gradient(100% 100%, #0000 22%, var(--c) 23% 29%, #0000 30% 34%, var(--c) 35% 41%, #0000 42%) #000000; */
+            radial-gradient(100% 100% at 50% 50%, #0000 22%, var(--c) 23% 29%, #0000 30% 34%, var(--c) 35% 41%, #0000 42%) #000000;
+        background-size: calc(var(--s)*2) calc(var(--s)*2);
+}
+.nametextbox{
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    font-size: 20px;
+    height: 40px;
+    color: white    ;
+    border-radius: 10px;
+    background-color: transparent;
+}

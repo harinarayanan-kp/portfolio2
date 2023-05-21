@@ -1,0 +1,17 @@
+.footer {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background:
+            radial-gradient(100% 100% at 100% 100%, var(--_l)) var(--s) var(--s),
+            radial-gradient(100% 100% at 0 0, var(--_l)) var(--s) var(--s),
+            radial-gradient(100% 100% at 50% 50%, #0000 22%, var(--c) 23% 29%, #0000 30% 34%, var(--c) 35% 41%, #0000 42%) #000000;
+        background-size: calc(var(--s)*2) calc(var(--s)*2);
+}
+
+.footercontainer {
+    display: flex;
+    justify-items: center;
+}
