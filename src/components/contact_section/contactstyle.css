@@ -1,4 +1,9 @@
 .contactsection{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: aliceblue;
     width: 100%;
     min-height: 100vh;
@@ -9,13 +14,68 @@
             radial-gradient(100% 100% at 50% 50%, #0000 22%, var(--c) 23% 29%, #0000 30% 34%, var(--c) 35% 41%, #0000 42%) #000000;
         background-size: calc(var(--s)*2) calc(var(--s)*2);
 }
+.contactsection form{
+    color: #000000;
+}
+.inputhead{
+    color: #000000;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius:20px 20px 0px 0px;
+    width: 100px;
+    height: 25px;
+    background-color:#fedb43;
+}
 .nametextbox{
+    color: #fff;
     padding: 10px;
-    width: 50%;
-    margin: 10px;
+    width: 80vw;
+    max-width: 600px;
+    border: 2px solid black;
     font-size: 20px;
-    height: 40px;
-    color: white    ;
-    border-radius: 10px;
+    height: 25px;
+    border-radius:0px 20px 20px 20px;
     background-color: transparent;
+}
+.contactsection .container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: rgb(78, 78, 78);
+    height: 500px;
+    width: 90vw;
+    max-width: 700px;
+}
+.message .nametextbox{
+    height: 200px;
+}
+.contactsection .container button{
+    border-radius: 20px;
+    background-color: #fedb43;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    height: 40px;
+}
+/* @media only screen and (max-width: 968px) {
+    .contactsection .container{
+        scale: 0.9;
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    .contactsection .container{
+        scale: 0.7;
+    }
+    
+} */
+.medi2{
+    position: relative;
+    left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }

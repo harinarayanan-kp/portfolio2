@@ -1,4 +1,5 @@
 .mainbody {
+    scroll-snap-align: start;
     user-select: none;
     overflow: hidden;
     max-width: 100%;

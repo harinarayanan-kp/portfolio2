@@ -3,7 +3,7 @@ import './style/commonstyle.css'
 import Card from './Card.jsx'
 import card1 from '../assets/card1.jpg'
 import card2 from '../assets/card2.jpg'
-const Section3 = () => {
+const Projects = () => {
     return (
         <div>
             <section className='section' id='projects'>
@@ -17,4 +17,4 @@ const Section3 = () => {
     )
 }
 
-export default Section3
+export default Projects

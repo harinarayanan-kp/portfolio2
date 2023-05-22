@@ -8,7 +8,7 @@ import image4 from '../assets/image4.jpg'
 import image5 from '../assets/image5.jpg'
 import image6 from '../assets/image6.jpg'
 import image7 from '../assets/image7.jpg'
-const Section2 = () => {
+const Gallery = () => {
     return (
         <div>
 
@@ -27,4 +27,4 @@ const Section2 = () => {
     )
 }
 
-export default Section2
+export default Gallery
