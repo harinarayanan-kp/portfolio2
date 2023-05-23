@@ -127,7 +127,7 @@
 }
 
 .contactbutton {
-    width: 150px;
+    width: 180px;
     text-decoration: none;
     height: 42px;
     position: absolute;
@@ -203,11 +203,11 @@
 }
 .contactbutton:hover .medi{
     opacity: 1;
- transform: translateY(-35px) translateX(-150px);
+    transform: translateY(-40px) translateX(-25px);
 }
 .medi{
     scale: 0.7;
-    transform: translateY(-250px) translateX(-150px);
+    transform: translateY(-110px) translateX(-25px);
     transition: .3s;
     opacity: 0;
 }
